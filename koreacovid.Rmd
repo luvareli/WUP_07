@@ -78,8 +78,13 @@ In the percentage of the chart I can observe that more female are alive with the
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
-
+In the group of 1831 female alive and 1411 male were alive.in retrospect females are more alive than males in percentage. The p value is 1 out of a thousand in the Chi-square, In Fisher's test 9 out of 10,000 that are about the same p value. there is and odd ratio in the chart. The odds of females living against the odds of males dying. We want to be aware of the odds that are occurring.
 
 ## Conclusions
 
