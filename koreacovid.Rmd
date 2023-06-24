@@ -62,8 +62,18 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 In the counting chart I can see that not a lot of people people died. It is 50-70. In the percentage in the chart female is 50% is alive and male percentage is about 40%. there is more female than male, twice as many males were dying.
 
 
+
+
+
   
 ## Numerical results
+
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+In the percentage of the chart I can observe that more female are alive with the difference of 12. 36% of dead are female and 64% are male. In the second chart females are 98.7 and males are only 97. In the dead percentage females are 1.4% and males are 3%.
 
 
 ## Inferential results 
