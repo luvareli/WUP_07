@@ -88,3 +88,5 @@ In the group of 1831 female alive and 1411 male were alive.in retrospect females
 
 ## Conclusions
 
+In todays lesson I learned to to make a ggplot with the helper file, I applied results and changed the file project to kRdata. I created a numerical graph in percent and counting dead or alive. I also ran a chi-square test and Fisher's test and how both are equal in p value. In the final result we wanted to know the odds in the results of female and male casualties, we found men suffered more during the study while females had a more better outcome.
+
